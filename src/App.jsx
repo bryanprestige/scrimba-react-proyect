@@ -1,16 +1,19 @@
-//import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import reactIcon from './assets/react-icon.png'
 import './App.css'
 
 function App() {
-  //const [count, setCount] = useState(0)
 
   return (
     <main>
       <header>
           <img src={reactLogo} className="logo-react" alt="React logo" />    
           <h1>ReactFacts</h1>
+          <div className='links'>
+            <h2>Pricing</h2>
+            <h2>About</h2>
+            <h2>Contact</h2>
+          </div>
       </header>
       <section className='facts'>
         <h1 className='title'>Fun facts about React</h1>

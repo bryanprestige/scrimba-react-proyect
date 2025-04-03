@@ -24,6 +24,19 @@ header {
   width: 29px;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: 150px;
+  color: white;
+}
+
+.links h2 {
+  font-size: 18px;
+}
+
 header h1 {
   font-size: 22.25px;
   font-weight: 700;
